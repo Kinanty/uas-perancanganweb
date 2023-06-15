@@ -1,0 +1,17 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    color: #293462;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.btn-login{
+    background-color: #D61C4E;
+    font-style: normal;
+    font-weight: 600;
+    font-size: .9rem;
+    color: white;
+    border-radius: .75rem;
+}
