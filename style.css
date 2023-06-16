@@ -15,6 +15,29 @@
     color: white;
     border-radius: .75rem;
 }
+.sub-jud{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.btn-program1{
+    color: #293462;
+    border-color: #293462;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.btn-program2{
+    color: #D61C4E;
+    border-color: #D61C4E;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.btn-program3{
+    color: #Feb139;
+    border-color: #FEB139;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
 h1{
     font-weight: 600;
     font-style: normal;
@@ -45,6 +68,9 @@ h1{
 .daftar-kegiatan{
     background-color: #293462;
     /* border-radius: 16px; */
+}
+.card-home{
+    border-radius: 0 0 16px 16px;
 }
 .footer{
     background-color: #293462;
