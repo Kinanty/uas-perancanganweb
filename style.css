@@ -33,3 +33,26 @@ h1{
     font-weight: 600;
     font-size: 1rem;
 }
+.footer{
+    background-color: #293462;
+    color: white;
+}
+h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+a{
+    text-decoration: none;
+}
+.footer-1{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.copyright{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
