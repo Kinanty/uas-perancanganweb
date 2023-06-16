@@ -19,4 +19,17 @@ $(document).ready(function(){
             }
         })
     })
+    $('#kabupaten').change(function(){
+        var id_kabupaten = $('#kabupaten').val();
+        console.log(id_kabupaten);
+        var url_kecamatan = 'http://dev.farizdotid.com/api/daerahindonesia/kecamatan?id_kota=' + id_kabupaten;
+        $('#kecamatan').empty();
+        $.get(url_kecamatan, function(data, status) {
+            console.log(data);
+            for(i = 0; i < data.kecamatan.length; i++){
+                var option = '<option value = '+data.kecamatan[i].id + ">" +data.kecamatan[i].nama + "</option>";
+                $('#kecamatan').append(option);
+            }
+        })
+    })
 });
