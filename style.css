@@ -33,6 +33,19 @@ h1{
     font-weight: 600;
     font-size: 1rem;
 }
+.card{
+    border-radius: 16px;
+}
+.card-poster{
+    background-color: #D61C4E;
+    border: none;
+    /* border-radius: 16px; */
+    color: white;
+}
+.daftar-kegiatan{
+    background-color: #293462;
+    /* border-radius: 16px; */
+}
 .footer{
     background-color: #293462;
     color: white;
